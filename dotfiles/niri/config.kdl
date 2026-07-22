@@ -143,6 +143,7 @@ binds {
     Super+F { spawn "nautilus"; }
     Super+Backspace {spawn "mullvad-browser"}
     Super+B {spawn "btop"}
+    Super+, {spawn-sh "qs -c noctalia-shell ipc call settings toggle"}
 
     Mod+K repeat=false { close-window; }
     Mod+M { maximize-column; }
