@@ -132,6 +132,7 @@ environment {
 spawn-at-startup "noctalia" "--daemon"
 spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
 spawn-at-startup "noctalia"
+spawn-at-startup "swaybg" "-i" "/home/NixOS/nix-sys/assets/wallpapers/arctic-landscape.png" "-m" "fill"
 
 binds {
     Mod+Tab repeat=false { toggle-overview; }
