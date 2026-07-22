@@ -25,5 +25,7 @@
     pavucontrol
     nautilus
     polkit_gnome
+    mako
+    fastfetch
   ];
 }
