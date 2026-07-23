@@ -5,7 +5,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  networking.hostName = "wifi"; 
+  networking.hostName = "TobSter"; 
   networking.networkmanager.enable = true;
 
   time.timeZone = "Europe/Berlin";
