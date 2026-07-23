@@ -16,16 +16,9 @@
     kitty
     starship
     btop
-    fuzzel
-    waybar
-    grim
-    slurp
-    swaybg
-    mako
     pavucontrol
     nautilus
     polkit_gnome
-    mako
     fastfetch
   ];
 }
