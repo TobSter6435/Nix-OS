@@ -35,7 +35,7 @@
           home-manager.useUserPackages = true;
           home-manager.backupFileExtension = "hm-bak";
           home-manager.extraSpecialArgs = { inherit inputs; };
-          home-manager.users.DEINUSER = import ./desktop/shell.nix;
+          home-manager.users.NixOS = ./desktop/shell.nix;
         }
       ];
     };

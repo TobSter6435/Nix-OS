@@ -22,7 +22,7 @@
     enable = true;
     settings = {
       default_session = {
-        command = "${pkgs.greetd.tuigreet}/bin/tuigreet --time --cmd niri-session";
+        command = "${pkgs.tuigreet}/bin/tuigreet --time --cmd niri-session";
         user = "greeter";
       };
     };
@@ -32,4 +32,21 @@
     enable = false; # Wir nutzen Wayland, also kein kompletter X-Server
     xkb.layout = "de";
   };
+
+
+
+environment.systemPackages = with pkgs; [
+  xwayland-satellite
+  xwayland # Nötig für die X11-Bibliotheken
+];
+
+# Automatisch mit der User-Session starten:
+systemd.user.services.xwayland-satellite = {
+  description = "Xwayland outside your Wayland compositor";
+  wantedBy = [ "graphical-session.target" ];
+  serviceConfig = {
+    ExecStart = "${pkgs.xwayland-satellite}/bin/xwayland-satellite :0";
+    Restart = "on-failure";
+  };
+};
 }

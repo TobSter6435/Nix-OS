@@ -33,11 +33,47 @@
   
 
   nixpkgs.config.allowUnfree = true;
+  
+  services.xserver.videoDrivers = [ "nvidia" ] ;
+  hardware.graphics = {
+    enable=true;
+};
 
+ hardware.nvidia = {
+
+   modesetting.enable = true;
+   powerManagement.enable = false;
+   powerManagement.finegrained  = false;
+   open = true;
+   nvidiaSettings = true;
+   package = config.boot.kernelPackages.nvidiaPackages.stable;
+
+
+};
+  
+
+  programs.xwayland.enable = true;
   
   users.users.NixOS = {
     isNormalUser = true;
     description = "TobSter";
-    extraGroups = [ "networkmanager" "wheel" "video" "input" ]; 
+    extraGroups = ["audio" "networkmanager" "wheel" "video" "input" ]; 
   };
+
+
+  programs.appimage = {
+  enable = true;
+  binfmt = true; 
+};
+
+networking.firewall = {
+  enable = true;
+
+  allowedTCPPorts = [ 22 ];
+  allowedUDPPorts = [ ];
+  allowPing = true;
+
+};
+
 }
+
