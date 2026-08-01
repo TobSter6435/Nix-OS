@@ -1,0 +1,13 @@
+[2026-08-01 14:53:30.902][info] setAccountExpiry(undefined) called at 2026-08-01T12:53:30.902Z
+[2026-08-01 14:53:30.904][verbose] Tunnel state: connecting
+[2026-08-01 14:53:30.974][verbose] Map canvas scale factor: 1, using: 1
+[2026-08-01 14:53:33.651][verbose] Tunnel state: disconnecting
+[2026-08-01 14:53:33.663][verbose] Tunnel state: disconnecting
+[2026-08-01 14:53:33.768][verbose] Tunnel state: disconnected
+[2026-08-01 14:53:35.857][verbose] Tunnel state: connecting
+[2026-08-01 14:53:35.933][verbose] Tunnel state: connecting
+[2026-08-01 14:53:41.363][verbose] Tunnel state: connected
+[2026-08-01 14:53:41.528][verbose] Tunnel state: connected
+[2026-08-01 14:53:45.172][info] setAccountExpiry(2026-09-19T18:43:29.000Z) called at 2026-08-01T12:53:45.172Z
+[2026-08-01 14:54:57.845][info] setAccountExpiry(2026-09-19T18:43:29.000Z) called at 2026-08-01T12:54:57.845Z
+[2026-08-01 15:38:25.746][info] setAccountExpiry(2026-09-19T18:43:29.000Z) called at 2026-08-01T13:38:25.746Z

@@ -1,0 +1,18 @@
+[2026-08-01 14:51:10.858][verbose] Chromium sandbox is enabled
+[2026-08-01 14:51:10.859][info] Running version 2026.3
+[2026-08-01 14:51:11.005][info] Detected locale: en-US
+[2026-08-01 14:51:11.062][error] Error while retrieving theme {"code":127,"killed":false,"signal":null,"cmd":"gsettings get org.gnome.desktop.interface icon-theme"}
+[2026-08-01 14:51:11.074][info] Verified socket ownership
+[2026-08-01 14:51:11.074][info] Connected to the daemon
+[2026-08-01 14:51:11.216][info] Inconsistent version {"guiVersion":"2026.3","daemonVersion":"2026.2"}
+[2026-08-01 14:51:11.217][info] Showing notification icon: "App is out of sync. Please quit and restart."
+[2026-08-01 14:51:11.236][info] Autoconnect the tunnel
+[2026-08-01 14:51:11.470][error] Failed to check autostart file: ENOENT: no such file or directory, access '/home/NixOS/.config/autostart/mullvad-vpn.desktop'
+[2026-08-01 14:51:16.188][warning] Failed to update device info: 14 UNAVAILABLE: Cannot reach the API
+[2026-08-01 14:51:16.189][warning] Failed to fetch account data. Retrying in 8000 ms
+[2026-08-01 14:51:34.195][warning] Failed to fetch account data. Retrying in 16000 ms
+[2026-08-01 14:52:19.765][warning] Failed to fetch account data. Retrying in 16000 ms
+[2026-08-01 14:52:22.897][verbose] GRPC Channel connectivity state changed to 0
+[2026-08-01 14:52:22.898][info] Disconnected from the daemon
+[2026-08-01 14:52:22.904][info] before-quit received
+[2026-08-01 14:52:22.905][info] Quit initiated

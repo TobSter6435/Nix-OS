@@ -1,0 +1,85 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "d65b1432dbec8fbc2546b6ea8031d38fc03eb9f6ea3529a61900bb1fcef388af",
+    "telemetry.devDeviceId": "8007df43-0f6c-4f4e-b23d-9964f9e86364",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/NixOS/Athena-AI"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 42,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/NixOS/WeatherApp": "__default__profile__",
+            "file:///home/NixOS/Techscrapper": "__default__profile__",
+            "file:///home/NixOS/Athena-AI": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1b1b1b",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1b1b1b",
+            "editorBackground": "#1b1b1b",
+            "titleBarBackground": "#3c3c3c",
+            "activityBarBackground": "#333333",
+            "sideBarBackground": "#252526",
+            "statusBarBackground": "#007acc",
+            "statusBarNoFolderBackground": "#68217a",
+            "windowBorder": "#3097ff"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 264,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/NixOS/Athena-AI",
+            "backupPath": "/home/NixOS/.config/VSCodium/Backups/6706741cbd0b980a9bdf3067eb698c5d",
+            "uiState": {
+                "mode": 1,
+                "x": 16,
+                "y": 10,
+                "width": 2544,
+                "height": 1388,
+                "zoomLevel": 1
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 264,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "263ef8391085c4ce37217ee83e7f37c2": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "4973b9aac11a21aefecf9bff40f960fd": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "c793e67d7e609cda78bf034e54c5285d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

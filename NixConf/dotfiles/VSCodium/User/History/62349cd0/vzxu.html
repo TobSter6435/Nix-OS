@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./js/script.js" defer></script>
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h1>Weather Dashboard</h1>
+            <div class="search-box">
+                <input type="text" id="city-input" placeholder="Enter city name...">
+                <button id="btn">Search</button>
+            </div>
+        </header>
+
+        <main id="weather-card" class="weather-card">
+            
+            <div class="main-info">
+                <h2 id="city-name">City Name</h2>
+                <p id="desc">Weather description</p>
+                <h1 id="temp">--°C</h1>
+            </div>
+
+            <div class="extra-info">
+                <div class="info-item">
+                    <span class="label">Feels Like</span>
+                    <span id="feels-like" class="value">--°C</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Humidity</span>
+                    <span id="humidity" class="value">--%</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Wind Speed</span>
+                    <span id="wind" class="value">-- km/h</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Visibility</span>
+                    <span id="visibility" class="value">-- km</span>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>

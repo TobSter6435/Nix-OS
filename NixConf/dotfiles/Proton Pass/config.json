@@ -1,0 +1,26 @@
+{
+	"__internal__": {
+		"migrations": {
+			"version": "1.38.0"
+		}
+	},
+	"update": {
+		"distribution": 0.43156836833804846,
+		"beta": false,
+		"status": 0,
+		"errorType": null,
+		"currentVersion": "1.38.0",
+		"newVersion": null,
+		"progress": null,
+		"mockDoDownloadError": false
+	},
+	"theme": "dark",
+	"windowConfig": {
+		"x": 0,
+		"y": 0,
+		"width": 948,
+		"height": 1028,
+		"maximized": false,
+		"zoomLevel": 0
+	}
+}

@@ -1,0 +1,3 @@
+2026/08/01-14:00:36.315 e2e Reusing MANIFEST /home/NixOS/.config/Proton Pass/Partitions/app/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2026/08/01-14:00:36.315 e2e Recovering log #11
+2026/08/01-14:00:36.319 e2e Reusing old log /home/NixOS/.config/Proton Pass/Partitions/app/IndexedDB/file__0.indexeddb.leveldb/000011.log 

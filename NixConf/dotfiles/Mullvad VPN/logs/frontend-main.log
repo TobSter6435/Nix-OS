@@ -1,0 +1,12 @@
+[2026-08-01 14:53:30.244][verbose] Chromium sandbox is enabled
+[2026-08-01 14:53:30.244][info] Running version 2026.3
+[2026-08-01 14:53:30.401][info] Detected locale: en-US
+[2026-08-01 14:53:30.460][error] Error while retrieving theme {"code":127,"killed":false,"signal":null,"cmd":"gsettings get org.gnome.desktop.interface icon-theme"}
+[2026-08-01 14:53:30.473][info] Verified socket ownership
+[2026-08-01 14:53:30.473][info] Connected to the daemon
+[2026-08-01 14:53:30.615][info] Inconsistent version {"guiVersion":"2026.3","daemonVersion":"2026.2"}
+[2026-08-01 14:53:30.615][info] Showing notification icon: "App is out of sync. Please quit and restart."
+[2026-08-01 14:53:30.637][info] Autoconnect the tunnel
+[2026-08-01 14:53:30.869][error] Failed to check autostart file: ENOENT: no such file or directory, access '/home/NixOS/.config/autostart/mullvad-vpn.desktop'
+[2026-08-01 14:53:40.585][warning] Failed to fetch account data. Retrying in 8000 ms
+[2026-08-01 14:53:40.585][warning] Failed to update device info: 14 UNAVAILABLE: Cannot reach the API
