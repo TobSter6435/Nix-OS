@@ -24,10 +24,14 @@
     LC_TIME = "de_DE.UTF-8";
   };
 
+  networking.firewall.checkReversePath = "loose";
+  services.resolved.enable = true;
 
   console.keyMap = "de";
 
-  
+  boot.kernelParams = [
+    "panic=15"
+  ];  
   
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   
@@ -68,9 +72,8 @@
 
 networking.firewall = {
   enable = true;
-
-  allowedTCPPorts = [ 22 ];
-  allowedUDPPorts = [ ];
+  allowedTCPPorts = [ 22 53317 ];
+  allowedUDPPorts = [ 53317 ];
   allowPing = true;
 
 };
